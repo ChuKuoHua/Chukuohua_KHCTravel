@@ -1,0 +1,29 @@
+.footer{
+    background: #3080af;
+    margin-top: 1em;
+    p{
+        text-align: center;
+        line-height: 26px;
+        letter-spacing: 2px;
+    }
+    .top{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        background: #dadada9e;
+        border: 1px solid #dadada6e;
+        z-index: 999;
+        display: none;
+        a{
+            padding: 13px 15px;
+            color: #14224b;
+            text-decoration: none;
+            &:hover{
+                color: #b93838;
+            }
+        }
+        &:hover{
+            box-shadow: 0 0 3px #8f8080;
+        }
+    }  
+}

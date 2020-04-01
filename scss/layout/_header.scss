@@ -1,0 +1,61 @@
+@mixin block-center{
+    display: block;
+    margin: 0 auto;
+}
+.p-1e{
+    padding: 1em;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.header {
+    background-image: url("../images/Hero.png");
+    background-size: cover;   
+    background-repeat:no-repeat;
+    position: relative;
+    height: 380px; 
+    h1{
+        font-size: 40px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 90px;
+    }    
+} 
+.btn-group{
+    position: absolute;
+    bottom: -80px;
+    margin-left: -0.8%;
+    width: 1024px;
+    background: #fff;
+    box-shadow: 0 0 5px #000;
+    p{
+        font-size: 18px;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        letter-spacing: 3px;
+        color: #cc3030;
+        font-weight: bold;
+    }
+    .btn{
+        font-family: Microsoft JhengHei;
+        border: 0;
+        padding: .6em 2.2em;
+        letter-spacing: 3px;
+        color: #fff;
+        border-radius: 5px;
+        margin-left: 5%;
+        font-size: 18px;
+        cursor: pointer;
+    }
+}
+.area{
+    display: block;
+    margin: 3em auto 0 auto;
+    width: 50%;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #ece4e3d4;
+    letter-spacing: 5px;
+    border: 2px solid #fff;
+}

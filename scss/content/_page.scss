@@ -1,0 +1,26 @@
+.page_container{
+    margin-top: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pagebtn{
+    margin-right: 5px;
+    border: 0;
+    float: left;
+}
+.pagelink{
+    color: antiquewhite;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10%;
+    background: #4892a9;
+    cursor: pointer;
+    &:hover{
+        background: #309c9c;
+        box-shadow: 0 0 10px inset #205456;
+        color: #121312;
+    } 
+    &.active{
+        background: #e46811;
+    }
+}

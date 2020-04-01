@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>高雄旅遊網</title>
+    <link rel="shortcut icon" href="images/Att_icon.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>    
+    <header class="header">
+        <div class="container">
+            <h1>高雄旅遊資訊</h1>
+            <select id="area" class="area p-1e" onmousedown="if(this.options.length>5){this.size=5}" onblur="this.size=1" onchange="this.size=1">
+            </select>
+            <div class="btn-group p-1e">
+                <p>熱門行政區</p>
+                <input type="button" value="三民區" class="btn" id="San_col">
+                <input type="button" value="大樹區" class="btn" id="Tree_col">
+                <input type="button" value="前鎮區" class="btn" id="Qianzhen_col">
+                <input type="button" value="左營區" class="btn" id="Zuoying_col">
+                <input type="button" value="苓雅區" class="btn" id="Lingya_col">
+            </div>
+        </div>
+    </header>  
+    <div class="content">
+        <div class="container p-1e">
+            <div class="divider">
+                <div class="ani_box">
+                    <div class="triangle_ani">
+
+                    </div>
+                </div>
+            </div>
+            <h3 class="title">-- 請選擇行政區 --</h3>
+            <div class="Att_group"></div>
+            <ul class="page_container" id="page" ></ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container p-1e">
+            <p>高雄旅遊網</p>
+            <p>資料來源：高雄市政府</p>
+        </div>
+        <div class="top">
+            <a href="#" class="fas fa-angle-double-up"></a>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/animate.js"></script>
+</body>
+</html>
