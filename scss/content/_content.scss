@@ -11,7 +11,8 @@
     }
 }
 .Att_group{
-    display: flow-root;
+    display: flex;
+    flex-wrap: wrap;
 }
 .Att_box{
     position: relative;

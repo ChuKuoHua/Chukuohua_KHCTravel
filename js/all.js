@@ -202,27 +202,6 @@ function getData(start,end,arr){
             }
         
         list.innerHTML = str;
-        document.querySelector('.Att_img').onload = function(){
-            getAttHeight();          
-        }
-    }
-}
-
-/** 處理資料跑版問題 */
-function getAttHeight(){
-    const AttHeight = document.querySelectorAll('.Att_box');
-    const Attimg = document.querySelectorAll('.Att_img')
-    let AttboxLe = AttHeight.length;
-    for(let i = 0; i<AttboxLe;i+=2){
-        AttHeight[i].classList.add('clearfix');                      
-    }
-    for(let i = 0; i<AttboxLe; i++){
-        if(AttHeight[i].offsetHeight > 350){
-            AttHeight[i].style.lineHeight="26px";
-            AttHeight[i].style.padding="0 0 1em 0";
-            Attimg[i].style.margin="0 0 1em 0";
-        }
-        //console.log(AttHeight[i].offsetHeight)
     }
 }
 
