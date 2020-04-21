@@ -141,7 +141,11 @@ a {
     padding-bottom: 1em; }
 
 .Att_group {
-  display: flow-root; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .Att_box {
   position: relative;
